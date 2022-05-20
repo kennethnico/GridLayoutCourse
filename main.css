@@ -8,6 +8,12 @@ html{
 }
 .contenedor{
     border: 5px solid #6ede6a;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px 100px;
+    grid-auto-flow: column;
+    gap: 20px;
 }
 .item{
     border: 5px solid #f5a316;
